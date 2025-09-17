@@ -26,7 +26,13 @@ function Navbar() {
 
         {/* Desktop Button */}
         <button className="hidden md:block px-6 py-3 rounded-full bg-gradient-to-r from-[#7d5a0a] via-[#a87c1f] to-[#92720a] cursor-pointer text-black font-semibold shadow-xl hover:bg-[#b6730a] hover:scale-105 transition-all duration-300">
-          Book a Table
+          <a
+            href="https://wa.me/9642028266?text=Hello%2C%20I%E2%80%99d%20like%20to%20book%20a%20table%20at%20Bottega%20Cafe."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book a Table
+          </a>
         </button>
 
         {/* Mobile Hamburger */}

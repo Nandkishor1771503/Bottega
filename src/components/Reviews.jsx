@@ -16,7 +16,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section className="px-4 sm:px-8 lg:px-16 pb-10">
+    <section className="px-4 sm:px-8 lg:px-16 md:pb-10">
       {/* Heading */}
       <h2 className="text-[#d68b0c] text-2xl sm:text-3xl lg:text-4xl font-thin mb-8 text-center sm:text-left">
         What our customers say

@@ -2,28 +2,26 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-[#d68b0c] py-10 px-6 mt-10 sm:px-12 lg:px-24">
-   
-<section class="w-full max-w-6xl mx-auto px-4 py-12">
- 
-  <h2 class="text-[#d68b0c] text-2xl sm:text-3xl md:text-4xl font-thin mb-6 text-center">
-    Find Us Here
-  </h2>
+    <footer className="bg-black text-[#d68b0c] py-10 px-6 md:mt-10 mt-4 sm:px-12 lg:px-24">
+      {/* Map Section */}
+      <section className="w-full max-w-6xl mx-auto px-4 py-12">
+        <h2 className="text-[#d68b0c] text-2xl sm:text-3xl md:text-4xl font-thin mb-6 text-center">
+          Find Us Here
+        </h2>
 
+        <div className="w-full aspect-video rounded-xl overflow-hidden shadow-xl">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d672.9864011176529!2d78.412504767386!3d17.412467863548528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96cf530c330d%3A0xebcd04e2020103d1!2sBOTTEGA%20Fine%20Food%20Cafe!5e0!3m2!1sen!2sin!4v1758091511735!5m2!1sen!2sin"
+            className="w-full h-full border-0"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="BOTTEGA Fine Food Cafe Location"
+          ></iframe>
+        </div>
+      </section>
 
-  <div class="w-full aspect-video rounded-xl overflow-hidden shadow-xl">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d672.9864011176529!2d78.412504767386!3d17.412467863548528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96cf530c330d%3A0xebcd04e2020103d1!2sBOTTEGA%20Fine%20Food%20Cafe!5e0!3m2!1sen!2sin!4v1758091511735!5m2!1sen!2sin"
-      class="w-full h-full border-0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      title="BOTTEGA Fine Food Cafe Location"
-    ></iframe>
-  </div>
-</section>
-
-
+      {/* Footer Content */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-0">
         {/* Brand / Logo */}
         <div className="flex flex-col items-start">
@@ -67,6 +65,18 @@ export default function Footer() {
             </a>
           </div>
         </div>
+      </div>
+
+      {/* Book Table Button */}
+      <div className="mt-8 flex justify-center md:justify-end">
+        <a
+          href="https://wa.me/9642028266?text=Hello%2C%20I%E2%80%99d%20like%20to%20book%20a%20table%20at%20Bottega%20Cafe."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#d68b0c] text-black px-6 py-3 rounded-full bg-gradient-to-r from-[#7d5a0a] via-[#a87c1f] to-[#92720a] cursor-pointer font-semibold shadow-xl hover:bg-[#b6730a] hover:scale-105 transition-all duration-300"
+        >
+          Book a Table
+        </a>
       </div>
 
       {/* Footer Bottom */}

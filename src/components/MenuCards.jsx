@@ -30,7 +30,7 @@ function MenuCards() {
   ];
 
   return (
-    <div className="w-full min-h-[70vh] sm:min-h-[80vh] pt-8 sm:pt-12 mt-10 sm:mt-16 flex flex-col items-center bg-black">
+    <div className="w-full min-h-[55vh] md:h-[90vh] pt-8 sm:pt-12 mt-10 sm:mt-16 flex flex-col items-center bg-black">
       {/* Section Heading */}
       <h2 className="text-[#d68b0c] text-2xl sm:text-3xl md:text-4xl font-thin mb-8 sm:mb-12">
         Our Coffee
@@ -89,7 +89,7 @@ function MenuCards() {
             />
 
             {/* Card Title */}
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-thin text-[#d68b0c] mt-2 sm:mt-3">
+            <h2 className="text-2xl lg:text-3xl font-thin text-[#d68b0c] mt-2 sm:mt-3">
               {card.title}
             </h2>
           </SwiperSlide>

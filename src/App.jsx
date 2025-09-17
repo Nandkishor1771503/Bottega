@@ -8,19 +8,19 @@ import Scroller from "./components/Scroller";
 import MenuCards from "./components/MenuCards";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
-
+import LenisProvider from "./components/LenisProvider";
 function App() {
-
-
   return (
     <>
-    <Navbar />
-    <Hero />
-    <Scroller />
-    <MenuCards />
-    {/* <div className="h-16 sm:h-20 lg:h-28"></div> */}
-    <Reviews />
-    <Footer />
+      <LenisProvider>
+        <Navbar />
+        <Hero />
+        <Scroller />
+        <MenuCards />
+
+        <Reviews />
+        <Footer />
+      </LenisProvider>
     </>
   );
 }
